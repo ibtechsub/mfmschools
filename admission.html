@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MFM Standard Schools | Admission</title>
+
+  <!-- Styles & Fonts -->
+  <link href="assets/img/adstyle.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="topbar">
+      <div class="contact-bar">
+        <span><i class="fa-solid fa-location-dot"></i> Sabon Titi, Farin Doki, Paikoro, Niger state</span>
+        <span><i class="fa-solid fa-phone"></i> 08028910378 | 08022025871</span>
+      </div>
+    </div>
+
+    <div class="nav-wrap">
+      <div class="logo">
+        <img src="assets/img/mfmlogo.png" alt="MFM Standard Schools Logo" />
+        <div class="brand-text">
+          <h1>MFM Standard Schools</h1>
+          <p class="slogan">Excellence • Knowledge • Discipline</p>
+        </div>
+      </div>
+
+      <nav class="navbar" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="academics.html" class="nav-link">Academics</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="news.html" class="nav-link">News</a></li>
+          <li><a href="recruitment.html" class="nav-link">Recruitment</a></li>
+          <li><a href="mobile/StudentRegister/" class="nav-link active">Admissions</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="nav-link">Login <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="mobile/studentL/">Student Login</a></li>
+              <li><a href="mobile/StaffL/">Staff Login</a></li>
+              <li><a href="admin-login.html">Admin Login</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-controls="main-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero fade-in">
+    <div class="hero-inner">
+      <h2>Admission into <span>MFM Standard Schools</span></h2>
+      <p class="lead">Give your child a solid foundation for success, discipline, and excellence.</p>
+      <a class="btn primary" href="#apply">Start Application</a>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <!-- Admission Procedure -->
+    <section class="admission-procedure fade-in">
+      <h2>Admission Procedure</h2>
+      <p>Our admission process is designed to be transparent, simple, and parent-friendly. Follow the steps below:</p>
+      <ol class="steps">
+        <li><i class="fa-solid fa-file-circle-check"></i> Obtain and fill out the admission form online or at the school office.</li>
+        <li><i class="fa-solid fa-user-graduate"></i> Submit the completed form with required documents.</li>
+        <li><i class="fa-solid fa-pen"></i> Sit for the entrance assessment (for applicable classes).</li>
+        <li><i class="fa-solid fa-handshake"></i> Attend a short interview/orientation with parent and child.</li>
+        <li><i class="fa-solid fa-check-double"></i> Receive admission confirmation and proceed with payment.</li>
+      </ol>
+    </section>
+
+    <!-- Requirements -->
+    <section class="admission-requirements fade-in">
+      <h2>Admission Requirements</h2>
+      <ul class="features">
+        <li><i class="fa-solid fa-id-card"></i> Birth certificate or age declaration</li>
+        <li><i class="fa-solid fa-school"></i> Last academic report (for transfer students)</li>
+        <li><i class="fa-solid fa-image"></i> 2 recent passport photographs</li>
+        <li><i class="fa-solid fa-shield"></i> Medical fitness report</li>
+        <li><i class="fa-solid fa-user"></i> Parent/guardian identification</li>
+      </ul>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us fade-in">
+      <h2>Why Enroll Your Child at MFM Standard Schools?</h2>
+      <div class="grid-2">
+        <div>
+          <p><strong>MFM Standard Schools</strong> is more than just a school—it’s a community of learners and leaders. Parents choose us because:</p>
+          <ul class="features">
+            <li><i class="fa-solid fa-chalkboard-teacher"></i> Highly qualified and passionate teachers</li>
+            <li><i class="fa-solid fa-book-open-reader"></i> Balanced curriculum blending academics with creativity</li>
+            <li><i class="fa-solid fa-futbol"></i> Strong extracurricular programs (sports, clubs, arts)</li>
+            <li><i class="fa-solid fa-shield-heart"></i> Safe and nurturing environment</li>
+            <li><i class="fa-solid fa-graduation-cap"></i> Track record of excellent results in external exams</li>
+          </ul>
+        </div>
+        <div>
+          <img src="assets/img/admission.png" alt="Students at MFM Standard Schools" class="responsive-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="apply" class="cta fade-in">
+      <h2>Ready to Join Us?</h2>
+      <p>Secure your child’s future today by enrolling them into MFM Standard Schools — where discipline, knowledge, and excellence meet.</p>
+      <a href="mobile/StudentRegister/" class="btn primary">Enroll Now</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MFM Standard Schools. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+// Mobile Hamburger Menu Toggle
+const hamburger = document.querySelector(".hamburger");
+const navList = document.querySelector(".nav-list");
+
+hamburger.addEventListener("click", () => {
+  navList.classList.toggle("show");
+
+  // Update ARIA accessibility
+  const expanded = hamburger.getAttribute("aria-expanded") === "true" || false;
+  hamburger.setAttribute("aria-expanded", !expanded);
+});
+
+// Dropdown Toggle for Mobile
+document.querySelectorAll(".has-dropdown > a").forEach(dropdownToggle => {
+  dropdownToggle.addEventListener("click", (e) => {
+    if (window.innerWidth <= 992) { // only on mobile
+      e.preventDefault();
+      const parentLi = dropdownToggle.parentElement;
+      parentLi.classList.toggle("open");
+    }
+  });
+});
+</script>
+
+</body>
+</html>
